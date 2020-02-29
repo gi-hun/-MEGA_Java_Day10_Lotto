@@ -20,6 +20,7 @@ public class ArrayEx10 {
 			System.out.println("[1]번복권 결과확인");
 			System.out.println("[2]번복권 결과확인");
 			System.out.println("[3]번복권 결과확인");
+			System.out.println("[4] 종료");
 			
 			System.out.print("메뉴 선택 : ");
 			int select = sc.nextInt();
@@ -109,8 +110,12 @@ public class ArrayEx10 {
 				else
 				{
 					System.out.println("꽝!");
-				}
-				
+				}	
+			}
+			else if(select == 4)
+			{
+				System.out.println("프로그램 종료");
+				break;
 			}
 		}
 	}
